@@ -1,0 +1,9 @@
+<phpunit bootstrap="src/autoload.php">
+  <testsuites>
+    <testsuite name="RandomDots">
+      <file>tests/testRandomDots.php</file>
+      <directory>tests/*Test.php</directory>
+      <exclude></exclude>
+    </testsuite>
+  </testsuites>
+</phpunit>
