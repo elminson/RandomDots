@@ -17,7 +17,7 @@ class testRandomDots extends TestCase
     /**
      *
      */
-    function testFirstTestCase()
+    public function testFirstTestCase()
     {
         $randomdots = new RandomDots();
         $this->assertEquals("t.e.s.t", $randomdots->placeDot("test",3));
