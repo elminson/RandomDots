@@ -1,4 +1,4 @@
-#RandomDots
+# RandomDots
 
 Function to add one or more dots in a ramdom position of a string 
 Validation
