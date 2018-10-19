@@ -4,7 +4,11 @@ Scrutinizer<br>
 [![Build Status](https://scrutinizer-ci.com/g/elminson/RandomDots/badges/build.png?b=master)](https://scrutinizer-ci.com/g/elminson/RandomDots/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/elminson/RandomDots/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
+Codacy<br>
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6bef375c73a041ddaf96533b9f220af1)](https://app.codacy.com/app/elminson/RandomDots?utm_source=github.com&utm_medium=referral&utm_content=elminson/RandomDots&utm_campaign=Badge_Grade_Dashboard)
+
+Travis<br>
+[![Build Status](https://travis-ci.com/elminson/RandomDots.svg?branch=master)](https://travis-ci.com/elminson/RandomDots)
 
 Function to add one or more dots in a ramdom position of a string 
 Validation
