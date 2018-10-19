@@ -33,7 +33,9 @@ class RandomDots
         if (strlen($string) <= $number_of_dots) {
             throw new \Exception(" String length must be greater than number of dots ");
         }
-        if ($number_of_dots == 0) return $string;
+        if ($number_of_dots == 0) {
+            return $string;
+        }
         $string = str_split($string);
         $len = count($string);
         $random_position = rand(0, $len - 1);
@@ -41,8 +43,8 @@ class RandomDots
         $string = implode($string);
         if (strlen(strstr($string, "..")) > 0 || substr($string, 0, 1) === ".") {
             return $this->placeDot($original_string, $number_of_dots);
-        } else {
-            return $this->placeDot($string, $number_of_dots - 1);
         }
+
+        return $this->placeDot($string, $number_of_dots - 1);
     }
 }

@@ -10,7 +10,7 @@ namespace Elminson\PHPProjectGen;
 
 use Elminson\RandomDots\RandomDots;
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
 $randomdots = new RandomDots();
 print_r($randomdots->placeDot("test",3));
