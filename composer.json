@@ -3,6 +3,7 @@
     "description": "Function to add one or more dots in a random position of a string",
     "type": "project",
     "require": {
+        "php": ">=7.1",
         "phpunit/phpunit": "^7.4@dev"
     },
     "require-dev": {
@@ -16,10 +17,6 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Elminson\\RandomDots\\": "src/",
-            "Elminson\\RandomDots\\Test\\": "tests/"
-        },
         "psr-4": {
             "Elminson\\RandomDots\\": "src/",
             "Elminson\\RandomDots\\Test\\": "tests/"
