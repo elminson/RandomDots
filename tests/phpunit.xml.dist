@@ -1,9 +1,13 @@
-<phpunit bootstrap="src/autoload.php">
-  <testsuites>
-    <testsuite name="RandomDots">
-      <file>tests/testRandomDots.php</file>
-      <directory>tests/*Test.php</directory>
-      <exclude></exclude>
-    </testsuite>
-  </testsuites>
+<?xml version="1.0"?>
+<phpunit colors="true" bootstrap="../vendor/autoload.php">
+    <testsuites>
+        <testsuite name="RandomDots">
+            <directory suffix=".php">./</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">../src</directory>
+        </whitelist>
+    </filter>
 </phpunit>
